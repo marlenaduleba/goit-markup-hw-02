@@ -34,21 +34,12 @@ text-decoration: none;
 .contact-links:focus{
     color: var(--font-color-tertiary);
 }
-.navigation-links{
+.navigation-links .contact-links{
 font-style: 500;
 font-size: 14px;
 line-height: 1.142;
 letter-spacing: 2%;
 color:var(--font-color-secondary);
-text-decoration: none; 
-
-}
-.contact-links{
-font-style: 500;
-font-size: 14px;
-line-height: 1.142;
-letter-spacing: 2%;
-color: var(--font-color-primary);
 text-decoration: none; 
 }
 

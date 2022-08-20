@@ -1,0 +1,15 @@
+:root {
+--font-primary: font-family:'Roboto',sans-serif;
+--font-secondary:"Raleway",sans-serif;
+--font-color-primary:#212121;
+--font-color-secondary:#757575;
+--font-color-tertiary:#2196F3;
+--font-color-quaternary:#FFFFFF;
+--background-color-primary:#2F303A;
+--background-color-secondary:#F5F4FA;
+}
+
+body{
+font-family: var(--font-primary);
+
+}

@@ -1,8 +1,8 @@
 :root {
 --font-primary: font-family:'Roboto',sans-serif;
 --font-secondary:"Raleway",sans-serif;
---font-color-primary:#212121;
---font-color-secondary:#757575;
+--font-color-primary:#757575;
+--font-color-secondary:#212121;
 --font-color-tertiary:#2196F3;
 --font-color-quaternary:#FFFFFF;
 --background-color-primary:#2F303A;
@@ -11,5 +11,49 @@
 
 body{
 font-family: var(--font-primary);
+color:var(--font-color-primary);
+}
+
+/* *********   HEADER  ********************/
+.header-link{
+font-family: var(--font-secondary);
+font-size: 26px;
+line-height: 1.192;
+letter-spacing: 3%;
+color: var(--font-color-tertiary);
+text-decoration: none;
+}
+.studio-color{
+    color: var(--font-color-secondary);
+}
+.header-link .studio-color:hover,
+.header-link .studio-color:focus,
+.navigation-links:hover,
+.navigation-links:focus,
+.contact-links:hover,
+.contact-links:focus{
+    color: var(--font-color-tertiary);
+}
+.navigation-links{
+font-style: 500;
+font-size: 14px;
+line-height: 1.142;
+letter-spacing: 2%;
+color:var(--font-color-secondary);
+text-decoration: none; 
 
 }
+.contact-links{
+font-style: 500;
+font-size: 14px;
+line-height: 1.142;
+letter-spacing: 2%;
+color: var(--font-color-primary);
+text-decoration: none; 
+}
+
+
+/* *********  END HEADER  ********************/
+
+
+/* *********MAIN ********************/

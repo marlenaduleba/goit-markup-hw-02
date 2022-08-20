@@ -34,7 +34,7 @@ text-decoration: none;
 .contact-links:focus{
     color: var(--font-color-tertiary);
 }
-.navigation-links .contact-links{
+.navigation-links {
 font-style: 500;
 font-size: 14px;
 line-height: 1.142;
@@ -42,9 +42,43 @@ letter-spacing: 2%;
 color:var(--font-color-secondary);
 text-decoration: none; 
 }
-
-
-/* *********  END HEADER  ********************/
-
-
+.contact-links{
+    font-style: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 2%;
+    color: var(--font-color-primary);
+    text-decoration: none;
+    }
 /* *********MAIN ********************/
+
+.studio-block{
+    background-color: var(--background-color-primary);
+}
+.studio-title{
+font-size: 44px;
+line-height: 1.363;
+letter-spacing: 6%;
+color:var(--font-color-quaternary);
+}
+.studio-button{
+font-style: 700;
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 6%;
+color: var(--font-color-quaternary);
+background-color: var(--font-color-tertiary);
+}
+.strenghts-list-title{
+    font-style: 700;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 3%;
+ color: var(--font-color-secondary);
+}
+.strenghts-list-description{
+font-style: 400;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 3%;
+}

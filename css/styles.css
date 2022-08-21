@@ -15,7 +15,7 @@ color:var(--font-color-primary);
 }
 
 /* *********   HEADER  ********************/
-.header-link{
+.logo-link{
 font-family: var(--font-secondary);
 font-size: 26px;
 line-height: 1.192;
@@ -25,8 +25,8 @@ text-decoration: none;
 .studio-color{
     color: var(--font-color-secondary);
 }
-.header-link .studio-color:hover,
-.header-link .studio-color:focus,
+.logo-link .studio-color:hover,
+.logo-link .studio-color:focus,
 .navigation-links:hover,
 .navigation-links:focus,
 .contact-links:hover,
@@ -80,4 +80,15 @@ font-weight: 700;
 font-size: 36px;
 line-height: 1.166;
 color: var(--font-color-secondary); 
+}
+.employee-name{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.187;
+color: var(--font-color-secondary); 
+}
+.employee-position{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.187;
 }

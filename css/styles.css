@@ -19,7 +19,6 @@ color:var(--font-color-primary);
 font-family: var(--font-secondary);
 font-size: 26px;
 line-height: 1.192;
-letter-spacing: 3%;
 color: var(--font-color-tertiary);
 text-decoration: none;
 }
@@ -35,50 +34,44 @@ text-decoration: none;
     color: var(--font-color-tertiary);
 }
 .navigation-links {
-font-style: 500;
+font-weight: 500;
 font-size: 14px;
 line-height: 1.142;
-letter-spacing: 2%;
 color:var(--font-color-secondary);
 text-decoration: none; 
 }
 .contact-links{
-    font-style: 500;
-    font-size: 14px;
-    line-height: 1.142;
-    letter-spacing: 2%;
-    color: var(--font-color-primary);
-    text-decoration: none;
-    }
+font-weight: 500;
+font-size: 14px;
+line-height: 1.142;
+color: var(--font-color-primary);
+text-decoration: none;
+}
 /* *********MAIN ********************/
 
 .studio-block{
-    background-color: var(--background-color-primary);
+background-color: var(--background-color-primary);
 }
 .studio-title{
 font-size: 44px;
 line-height: 1.363;
-letter-spacing: 6%;
 color:var(--font-color-quaternary);
 }
 .studio-button{
-font-style: 700;
+font-weight: 700;
 font-size: 16px;
 line-height: 1.875;
-letter-spacing: 6%;
 color: var(--font-color-quaternary);
 background-color: var(--font-color-tertiary);
 }
 .strenghts-list-title{
-    font-style: 700;
-    font-size: 14px;
-    line-height: 1.142;
-    letter-spacing: 3%;
- color: var(--font-color-secondary);
+font-weight: 700;
+font-size: 14px;
+line-height: 1.142;
+color: var(--font-color-secondary);
 }
 .strenghts-list-description{
-font-style: 400;
+font-weight: 400;
 font-size: 14px;
 line-height: 1.714;
-letter-spacing: 3%;
 }

@@ -80,7 +80,6 @@ line-height: 1.142;
 color: var(--font-color-secondary);
 }
 .strenghts-list-description{
-font-weight: 400;
 font-size: 14px;
 line-height: 1.714;
 }
@@ -97,7 +96,6 @@ line-height: 1.187;
 color: var(--font-color-secondary); 
 }
 .employee-position{
-font-weight: 400;
 font-size: 16px;
 line-height: 1.187;
 }
@@ -118,7 +116,6 @@ background-color: var(--font-color-tertiary);
 background-color: var(--background-color-primary);
 }
 .contacts-bottom{
-font-weight: 400;
 font-size: 14px;
 line-height: 1.714;
 font-style: normal;

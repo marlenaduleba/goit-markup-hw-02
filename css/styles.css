@@ -75,3 +75,9 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.714;
 }
+.section-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.166;
+color: var(--font-color-secondary); 
+}

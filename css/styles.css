@@ -14,10 +14,10 @@ body {
   font-family: var(--font-primary);
   color: var(--font-color-primary);
 }
-.logo-link .studio-color-top:hover,
-.logo-link .studio-color-top:focus,
-.studio-color-bottom:hover,
-.studio-color-bottom:focus,
+.logo-link .logo-link-dark-theme:hover,
+.logo-link .logo-link-dark-theme:focus,
+.logo-link-light-theme:hover,
+.logo-link-light-theme:focus,
 .navigation-links:hover,
 .navigation-links:focus,
 .contacts-links-top:hover,
@@ -33,10 +33,10 @@ body {
   color: var(--font-color-tertiary);
   text-decoration: none;
 }
-.studio-color-top {
+.logo-link-dark-theme {
   color: var(--font-color-secondary);
 }
-.studio-color-bottom {
+.logo-link-light-theme {
   color: var(--font-color-quaternary);
 }
 
@@ -48,6 +48,15 @@ body {
   color: var(--font-color-secondary);
   text-decoration: none;
 }
+
+.navigation-links-active {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  color: var(--font-color-tertiary);
+  text-decoration: none;
+}
+
 .contacts-links-top {
   font-weight: 500;
   font-size: 14px;
@@ -57,28 +66,29 @@ body {
 }
 /* *********MAIN ********************/
 
-.studio-block {
+.block-main {
   background-color: var(--background-color-primary);
 }
-.studio-title {
+
+.title-main {
   font-size: 44px;
   line-height: 1.363;
   color: var(--font-color-quaternary);
 }
-.studio-btn {
+.button-main {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
   color: var(--font-color-quaternary);
   background-color: var(--font-color-tertiary);
 }
-.strenghts-list-title {
+.section-descripions-list-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
   color: var(--font-color-secondary);
 }
-.strenghts-list-description {
+.section-descripions-list-description {
   font-size: 14px;
   line-height: 1.714;
 }
@@ -98,16 +108,16 @@ body {
   font-size: 16px;
   line-height: 1.187;
 }
-.filter-btn {
+.button-filter {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
   color: var(--font-color-secondary);
 }
-.filter-btn:hover,
-.filter-btn:focus,
-.studio-btn:hover,
-.studio-btn.studio-color-bottom:focus {
+.button-filter:hover,
+.button-filter:focus,
+.button-main:hover,
+.button-main.logo-link-light-theme:focus {
   cursor: pointer;
   color: var(--font-color-quaternary);
   background-color: var(--font-color-tertiary);

@@ -82,13 +82,13 @@ body {
   color: var(--font-color-quaternary);
   background-color: var(--font-color-tertiary);
 }
-.section-descripions-list-title {
+.section-descriptions-list-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
   color: var(--font-color-secondary);
 }
-.section-descripions-list-description {
+.section-descriptions-list-description {
   font-size: 14px;
   line-height: 1.714;
 }
